@@ -1,0 +1,25 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+input, select {
+    padding: 5px;
+    font-size: 1em;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
