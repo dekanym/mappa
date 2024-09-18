@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4d7be;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    background-color: cyan;
+    height: 100px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.side {
+    width: 10%;
+}
+
+.bal {
+    background-color: orange;
+}
+
+.jobb{
+    background-color: purple;
+}
+
+.cica {
+    background-color: #f4d7be; /* Bézs */
+    width: 5%;
+}
+
+.main {
+    background-color: red;
+    flex: 1;
+}
+
+.footer {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
